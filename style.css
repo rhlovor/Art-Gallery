@@ -37,6 +37,7 @@
     #location{
         width:204px;
         height:72px;
+        border: hidden;
         background-color: #151515;
         color: #ffffff;
         font-family: 'big shoulders display',sans-serif;
@@ -93,11 +94,14 @@
         height: 749px;
     }
 
+    .ins-move{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
     .inspired{
         width: 343px;
         height: 293px;
         background-color: #151515;
-        margin: auto;
         display: flex;
         align-items: center;
     }
@@ -129,7 +133,7 @@
     }
 
     .footer-container{
-        height:336px;
+        height:375px;
         width: 375px;
         background-color: #151515;
         color: #ffffff;
@@ -139,7 +143,32 @@
     
     .gallery-text{
         width: 311px;
-        height: 240px;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+
+    #gallery{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    #gallery-para{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+
+    .icon{
+        padding-top:43px;
+        width:100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
 
