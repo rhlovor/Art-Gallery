@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:500px){
+
+
+    #home{
+        width:208px;
+        height:72px;
+        border: hidden;
+        background-color: #151515;
+        color: #ffffff;
+        font-family: 'big shoulders display',sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 3.64px;
+
+        }
+
+    .loc-box{
+        width: 56px;
+        height: 72px;
+        background-color: #d5966c;
+        padding:23px;
+        }
+
+    .button{
+        display: flex;
+    }
+
+    .map{
+        background-image: url(./assets/mobile/image-map.png);
+        height: 550px;
+        width: 375px;
+    }
+
+    .loc-container{
+        height: 530px;
+        width: 375px;
+        background-color: #151515;
+    }
+
+    .loc-text{
+        width: 343px;
+        position: relative;
+        top: 43px;
+        padding-left:18px;
+    }
+
+    #loc-bold{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+
+    #loc-mid{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        color: #d5966c;
+        padding-top: 35px;;
+    }
+
+    #loc1{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    #loc-para{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .footer-container{
+        height:375px;
+        width: 375px;
+        background-color: #d5966c;
+        color: #151515;
+        
+
+    }
+    
+    .gallery-text{
+        width: 311px;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+
+    #gallery{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    #gallery-para{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+
+    .icon{
+        padding-top:43px;
+        width:100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        filter: invert(1);
+    }
+
+
+
+}
