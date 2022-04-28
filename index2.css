@@ -128,7 +128,7 @@
 
 }
 
-@media screen and (min-width:500px) and (max-width:769px) {
+@media screen and (min-width:376px) and (max-width:769px) {
 
     #home{
         width:208px;
@@ -277,3 +277,4 @@
         height: 16.25px;
     }
 }
+
