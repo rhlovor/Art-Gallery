@@ -4,4 +4,145 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width:500px) {
+    .image{
+        width: 375px;
+        height: 240px;
+        background-image: url(./assets/mobile/image-hero.jpg);
+    }
 
+    .head{
+        width:343px;
+    }
+    #heading{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 55px;
+        padding-left: 18px;
+        padding-top: 32px;
+        color: #151515;
+    }
+
+    #para-1{
+        padding-left: 18px;
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #444444;
+    }
+
+    #location{
+        width:204px;
+        height:72px;
+        background-color: #151515;
+        color: #ffffff;
+        font-family: 'big shoulders display',sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 3.64px;
+    }
+
+    .location{
+        padding-left: 18px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    a{
+    text-decoration:none;
+    }
+
+    .loc-box{
+        width: 56px;
+        height: 72px;
+        background-color: #d5966c;
+        padding:23px;
+    }
+
+    .space{
+        height:468px;
+    }
+
+    .your-day{
+        width: 343px;
+    }
+    #your-day{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        padding-left: 18px;
+        color: #151515;
+    }
+
+    #your-para{
+        padding-left: 18px;
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #444444;
+    }
+
+    .space-2{
+        height: 749px;
+    }
+
+    .inspired{
+        width: 343px;
+        height: 293px;
+        background-color: #151515;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .ins-text{
+        width:295px;
+        margin:auto;
+    }
+
+    #come-inspired{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        color: #ffffff;
+    }
+
+    #inspired-para{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .space-3{
+        height: 120px;
+    }
+
+    .footer-container{
+        height:336px;
+        width: 375px;
+        background-color: #151515;
+        color: #ffffff;
+        
+
+    }
+    
+    .gallery-text{
+        width: 311px;
+        height: 240px;
+    }
+
+
+
+
+}
