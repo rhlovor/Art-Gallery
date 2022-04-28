@@ -27,6 +27,10 @@
         padding:23px;
         }
 
+        a{
+         text-decoration: none;
+        }
+
     .button{
         display: flex;
     }
