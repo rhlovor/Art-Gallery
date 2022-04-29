@@ -134,7 +134,6 @@
 
     .footer-container{
         height:375px;
-        width: 375px;
         background-color: #151515;
         color: #ffffff;
         
@@ -172,6 +171,185 @@
     }
 
 
+}
 
+@media screen and (min-width:500px) and (max-width:769px) {
+
+    .image{
+        width: 437px;
+        height: 700px;
+        background-image: url(./assets/tablet/image-hero.jpg);
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .head{
+        padding-top: 145px;
+        width:339px;
+        position: relative;
+        left: -50px;
+    }
+    #heading{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 55px;
+        padding-left: 18px;
+        padding-top: 32px;
+        color: #151515;
+    }
+
+    #para-1{
+        padding-left: 18px;
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #444444;
+    }
+
+    #location{
+        width:204px;
+        height:72px;
+        border: hidden;
+        background-color: #151515;
+        color: #ffffff;
+        font-family: 'big shoulders display',sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 3.64px;
+    }
+
+    .location{
+        padding-left: 18px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    a{
+    text-decoration:none;
+    }
+
+    .loc-box{
+        width: 56px;
+        height: 72px;
+        background-color: #d5966c;
+        padding:23px;
+    }
+
+    .space{
+        height:154px;
+    }
+
+    .your-day{
+        width: 343px;
+    }
+    #your-day{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        padding-left: 39px;
+        color: #151515;
+    }
+
+    #your-para{
+        padding-left: 39px;
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #444444;
+    }
+
+    .space-2{
+        height: 398px;
+    }
+
+    .ins-move{
+        padding-right: 39px;
+        float: right;
+        
+    }
+    .inspired{
+        width: 343px;
+        height: 293px;
+        background-color: #151515;
+        display: flex;
+        align-items: center;
+    }
+
+    .ins-text{
+        width:295px;
+        margin:auto;
+    }
+
+    #come-inspired{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        color: #ffffff;
+    }
+
+    #inspired-para{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .space-3{
+        height: 120px;
+    }
+
+    .footer-container{
+        position: relative;
+        top:280px;
+        height:375px;
+        background-color: #151515;
+        color: #ffffff;
+        display: flex;
+        
+
+    }
+    
+    .gallery-text{
+        width: 311px;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+
+    #gallery{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    #gallery-para{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+
+    .icon{
+        padding-top:43px;
+        width:100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 }
