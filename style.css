@@ -248,7 +248,7 @@
     }
 
     .your-day{
-        width: 343px;
+        width: 223px;
     }
     #your-day{
         font-family: 'big shoulders display',sans-serif;
@@ -279,15 +279,15 @@
         
     }
     .inspired{
-        width: 343px;
-        height: 293px;
+        width: 280px;
+        height: 396px;
         background-color: #151515;
         display: flex;
         align-items: center;
     }
 
     .ins-text{
-        width:295px;
+        width:225px;
         margin:auto;
     }
 
