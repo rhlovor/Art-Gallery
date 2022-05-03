@@ -4,9 +4,215 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Desktop view */
+@media screen and (min-width:1024px) and (max-width:1440px){
+
+    .header-container{
+        display: flex;
+    }
+
+
+    .black-shape{
+        background-color: #151515;
+        width: 450px;
+        height: 800px;
+    }
+
+    .image{
+        width: 540px;
+        height: 800px;
+        background-image: url(./assets/desktop/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: 540px 800px;
+    }
+
+    
+    #heading{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 96px;
+        font-weight: 900;
+        line-height: 86px;
+        color: #151515;
+        width: 514px;
+        position: absolute;
+        left:169px;
+        top:190px;
+        color:#ffffff;
+    }
+
+    #para-1{
+        width: 350px;
+        height:260px;
+        font-family:'outfit',sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #444444;
+        position: relative;
+        left:-64px;
+        top:195px;
+    }
+
+    .location{
+        width:204px;
+        height:72px;
+        border: hidden;
+        background-color: #151515;
+        color: #ffffff;
+        font-family: 'big shoulders display',sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 3.64px;
+    }
+
+  
+    
+    a{
+        text-decoration:none;
+        position: relative;
+        top:165px;
+        left:-64px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    a:hover .loc-box {
+        background-color: #151515;
+    }
+
+    a:hover .location {
+        background-color: #d5966c;
+    }
+
+    .location:hover {
+        cursor: pointer;
+    }
+
+    .loc-box{
+        width: 56px;
+        height: 72px;
+        background-color: #d5966c;
+        padding:23px;
+    }
+
+    .space{
+        height:468px;
+    }
+
+    .your-day{
+        width: 350px;
+        position: relative;
+        left: 156px;
+    }
+    #your-day{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 50px;
+        color: #151515;
+    }
+
+    #your-para{
+        font-family:'outfit',sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #444444;
+        position: relative;
+        top: 50px;
+    }
+
+    .space-2{
+        height: 749px;
+    }
+
+    .ins-move{
+        
+    }
+    .inspired{
+        width: 445x;
+        height: 377px;
+        background-color: #151515;
+        display: flex;
+        align-items: center;
+    }
+
+    .ins-text{
+        width:295px;
+        margin:auto;
+    }
+
+    #come-inspired{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        color: #ffffff;
+    }
+
+    #inspired-para{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .space-3{
+        height: 120px;
+    }
+
+    .footer-container{
+        height:375px;
+        width: 100vw;
+        background-color: #151515;
+        color: #ffffff;
+        
+
+    }
+    
+    .gallery-text{
+        width: 311px;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+
+    #gallery{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    #gallery-para{
+        padding-top:43px;
+        font-family:'outfit',sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+
+    .icon{
+        padding-top:43px;
+        width:100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+}
+
+
 @media screen and (max-width:500px) {
     .image{
-        width: 375px;
+        width: 100vw;
         height: 240px;
         background-image: url(./assets/mobile/image-hero.jpg);
     }
@@ -34,7 +240,7 @@
         color: #444444;
     }
 
-    #location{
+    .location{
         width:204px;
         height:72px;
         border: hidden;
@@ -46,15 +252,15 @@
         letter-spacing: 3.64px;
     }
 
-    .location{
-        padding-left: 18px;
-        padding-top: 40px;
-        display: flex;
-        flex-direction: row;
-    }
+  
     
     a{
-    text-decoration:none;
+        text-decoration:none;
+        position: relative;
+        left: 18px;
+        top: 40px;
+        display: flex;
+        flex-direction: row;
     }
 
     .loc-box{
@@ -134,7 +340,7 @@
 
     .footer-container{
         height:375px;
-        width: 375px;
+        width: 100vw;
         background-color: #151515;
         color: #ffffff;
         
@@ -174,7 +380,7 @@
 
 }
 
-@media screen and (min-width:376px) and (max-width:769px) {
+@media screen and (min-width:426px) and (max-width:769px) {
 
     .image{
         width: 437px;
@@ -213,7 +419,7 @@
         color: #444444;
     }
 
-    #location{
+    .location{
         width:204px;
         height:72px;
         border: hidden;
@@ -225,16 +431,17 @@
         letter-spacing: 3.64px;
     }
 
-    .location{
-        padding-left: 18px;
-        padding-top: 40px;
+  
+    
+    a{
+        text-decoration:none;
+        position: relative;
+        left: 18px;
+        top: 40px;
         display: flex;
         flex-direction: row;
     }
-    
-    a{
-    text-decoration:none;
-    }
+
 
     .loc-box{
         width: 56px;
