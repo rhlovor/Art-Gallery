@@ -100,7 +100,7 @@ body::-webkit-scrollbar {
     }
 
     .space{
-        height:468px;
+        height:238px;
     }
 
     .your-day{
@@ -127,30 +127,42 @@ body::-webkit-scrollbar {
     }
 
     .space-2{
-        height: 749px;
+        height: 436px;
     }
 
-    .ins-move{
-        
-    }
     .inspired{
-        width: 445x;
+        width: 445px;
         height: 377px;
         background-color: #151515;
         display: flex;
         align-items: center;
+        
+    }
+    
+    .ins-move{
+        display: flex;
+        width: 1111px;
+        justify-content: space-between;
+        position: relative;
+        left: 156px;
+    }
+
+    .box{
+        width: 635px;
+        height: 377px;
+
     }
 
     .ins-text{
-        width:295px;
+        width:350px;
         margin:auto;
     }
 
     #come-inspired{
         font-family: 'big shoulders display',sans-serif;
-        font-size: 50px;
+        font-size: 60px;
         font-weight: 900;
-        line-height: 45px;
+        line-height: 50px;
         color: #ffffff;
     }
 
@@ -164,11 +176,11 @@ body::-webkit-scrollbar {
     }
 
     .space-3{
-        height: 120px;
+        height: 182px;
     }
 
     .footer-container{
-        height:375px;
+        height: 244px;
         width: 100vw;
         background-color: #151515;
         color: #ffffff;
@@ -176,36 +188,73 @@ body::-webkit-scrollbar {
 
     }
     
-    .gallery-text{
-        width: 311px;
+    .gallery-text {
+        width: 80vw;
         margin: auto;
         position: relative;
-        top: 50px;
-    }
-
-    #gallery{
-        font-family: 'big shoulders display',sans-serif;
-        font-size: 36px;
-        font-weight: 900;
-        line-height: 36px;
-    }
-
-    #gallery-para{
-        padding-top:43px;
-        font-family:'outfit',sans-serif;
-        font-size: 16px;
-        line-height: 26px;
-        font-weight: 300;
-    }
-
-    .icon{
-        padding-top:43px;
-        width:100px;
+        top: 81px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
+    #gallery {
+        font-family: 'big shoulders display', sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    #gallery-para {
+        width: 369px;
+        font-family: 'outfit', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+        position: relative;
+        left: -40px;
+    }
+
+   
+
+    .icon {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    #facebook {
+        width: 20px;
+        height: 20px;
+    }
+
+    #facebook:hover path{
+        cursor:pointer;
+        fill: #d5966c;
+    }
+
+    #instagram {
+        width: 20px;
+        height: 20px;
+    }
+
+    #instagram:hover path{
+        cursor:pointer;
+        fill: #d5966c;
+    }
+
+    #twitter {
+        width: 20px;
+        height: 16.25px;
+        
+    }
+
+    #twitter:hover path{
+        cursor:pointer;
+        fill: #d5966c;
+    }
 
 }
 
