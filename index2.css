@@ -166,7 +166,11 @@ body::-webkit-scrollbar {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        filter: invert(1);
+    }
+
+
+    path{
+        fill: #151515;
     }
 
     #facebook {
@@ -174,14 +178,30 @@ body::-webkit-scrollbar {
         height: 20px;
     }
 
+    #facebook:hover path{
+        cursor:pointer;
+        fill: #ffffff;
+    }
+
     #instagram {
         width: 20px;
         height: 20px;
     }
 
+    #instagram:hover path{
+        cursor:pointer;
+        fill: #ffffff;
+    }
+
     #twitter {
         width: 20px;
         height: 16.25px;
+        
+    }
+
+    #twitter:hover path{
+        cursor:pointer;
+        fill: #ffffff;
     }
 
 }
@@ -338,7 +358,10 @@ body::-webkit-scrollbar {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        filter: invert(1);
+    }
+
+    path{
+        fill: #151515;
     }
 
     #facebook {
@@ -346,16 +369,31 @@ body::-webkit-scrollbar {
         height: 20px;
     }
 
+    #facebook:hover path{
+        cursor:pointer;
+        fill: #ffffff;
+    }
+
     #instagram {
         width: 20px;
         height: 20px;
     }
 
+    #instagram:hover path{
+        cursor:pointer;
+        fill: #ffffff;
+    }
+
     #twitter {
         width: 20px;
         height: 16.25px;
+        
     }
 
+    #twitter:hover path{
+        cursor:pointer;
+        fill: #ffffff;
+    }
 }
 
 /* mobile view */
