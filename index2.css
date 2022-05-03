@@ -1,57 +1,83 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@media screen and (min-width:1024px) and (max-width:1440px){
+body::-webkit-scrollbar {
+    display: none;
+}
 
 
-    #home{
-        width:208px;
-        height:72px;
+/* Desktop view */
+@media screen and (min-width:1024px) and (max-width:1440px) {
+
+
+    a {
+        text-decoration: none;
+        width: 264px;
+        height: 72px;
+        position: relative;
+        left: 158px;
+        display: flex;
+    }
+
+
+
+    .home {
+        width: 208px;
+        height: 72px;
         border: hidden;
         background-color: #151515;
         color: #ffffff;
-        font-family: 'big shoulders display',sans-serif;
+        font-family: 'big shoulders display', sans-serif;
         font-weight: 800;
         font-size: 20px;
         letter-spacing: 3.64px;
-    
-        }
-    
-    .loc-box{
+
+    }
+
+
+
+    .loc-box {
         width: 56px;
         height: 72px;
         background-color: #d5966c;
-        padding:23px;
-        }
-    
-        a{
-         text-decoration: none;
-        }
-    
-    .button{
-        display: flex;
-        padding-left: 156px;
+        padding: 23px;
     }
-    
-    .map{
-        background-size: 100vw;
+
+    a:hover .loc-box {
+        background-color: #151515;
+    }
+
+    a:hover .home {
+        background-color: #d5966c;
+    }
+
+    .home:hover {
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    .map {
         background-image: url(./assets/desktop/image-map@2x.png);
         background-repeat: no-repeat;
-        height: 600px;
+        height: 550px;
+        width: 100vw;
+        background-size: 100vw 550px;
     }
-    
-    .loc-container{
-        position: relative;
-        top:-175px;
+
+    .loc-container {
         height: 500px;
         width: 100vw;
         background-color: #151515;
     }
-    
-    .loc-text{
+
+    .loc-text {
         width: 80vw;
         position: relative;
         top: 105px;
@@ -60,57 +86,55 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    
-    .loc-pat{
+
+    .loc-pat {
         width: 398px;
     }
-    
-    #loc-bold{
+
+    #loc-bold {
         width: 223px;
-        font-family: 'big shoulders display',sans-serif;
+        font-family: 'big shoulders display', sans-serif;
         font-size: 55px;
         line-height: 50px;
         font-weight: 900;
         color: #ffffff;
     }
-    
-    #loc-mid{
-        font-family: 'big shoulders display',sans-serif;
+
+    #loc-mid {
+        font-family: 'big shoulders display', sans-serif;
         font-size: 36px;
         font-weight: 900;
         color: #d5966c;
     }
-    
-    #loc1{
-        padding-top:43px;
-        font-family:'outfit',sans-serif;
+
+    #loc1 {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
         font-size: 18px;
         line-height: 22px;
         font-weight: 300;
         color: #ffffff;
     }
-    
-    #loc-para{
-        padding-top:43px;
-        font-family:'outfit',sans-serif;
+
+    #loc-para {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
         font-size: 18px;
         line-height: 22px;
         font-weight: 300;
         color: #ffffff;
     }
-    
-    .footer-container{
-        position: relative;
-        top:-175px;
-        height:244px;
+
+    .footer-container {
+        height: 244px;
         width: 100vw;
         background-color: #d5966c;
         color: #151515;
-        
-    
+
+
     }
-    
-    .gallery-text{
+
+    .gallery-text {
         width: 80vw;
         margin: auto;
         position: relative;
@@ -119,317 +143,339 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    
-    #gallery{
-        font-family: 'big shoulders display',sans-serif;
+
+    #gallery {
+        font-family: 'big shoulders display', sans-serif;
         font-size: 36px;
         font-weight: 900;
         line-height: 36px;
     }
-    
-    #gallery-para{
+
+    #gallery-para {
         width: 369px;
-        font-family:'outfit',sans-serif;
+        font-family: 'outfit', sans-serif;
         font-size: 16px;
         line-height: 26px;
         font-weight: 300;
         position: relative;
-        left:-40px;
+        left: -40px;
     }
-    
-    .icon{
-        width:100px;
+
+    .icon {
+        width: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         filter: invert(1);
     }
-    
-    #facebook{
+
+    #facebook {
         width: 20px;
         height: 20px;
     }
-    
-    #instagram{
+
+    #instagram {
         width: 20px;
         height: 20px;
     }
-    
-    #twitter{
+
+    #twitter {
         width: 20px;
         height: 16.25px;
     }
-    
+
+}
+
+/* Desktop view */
+@media screen and (min-width:1440px) {
+
+    a {
+        text-decoration: none;
+        width: 264px;
+        height: 72px;
+        position: relative;
+        left: 158px;
+        display: flex;
     }
 
-@media screen and (min-width:1440px){
-
-#home{
-    width:208px;
-    height:72px;
-    border: hidden;
-    background-color: #151515;
-    color: #ffffff;
-    font-family: 'big shoulders display',sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-    letter-spacing: 3.64px;
-
-    }
-
-.loc-box{
-    width: 56px;
-    height: 72px;
-    background-color: #d5966c;
-    padding:23px;
-    }
-
-    a{
-     text-decoration: none;
-    }
-
-.button{
-    display: flex;
-    padding-left: 156px;
-}
-
-.map{
-    background-size: 100vw;
-    background-image: url(./assets/desktop/image-map@2x.png);
-    background-repeat: no-repeat;
-    height: 600px;
-}
-
-.loc-container{
-    height: 548px;
-    width: 100vw;
-    background-color: #151515;
-}
-
-.loc-text{
-    width: 80vw;
-    position: relative;
-    top: 105px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.loc-pat{
-    width:540px;
-}
-
-#loc-bold{
-    width: 223px;
-    font-family: 'big shoulders display',sans-serif;
-    font-size: 70px;
-    line-height: 70px;
-    font-weight: 900;
-    color: #ffffff;
-}
-
-#loc-mid{
-    font-family: 'big shoulders display',sans-serif;
-    font-size: 36px;
-    font-weight: 900;
-    color: #d5966c;
-}
-
-#loc1{
-    padding-top:43px;
-    font-family:'outfit',sans-serif;
-    font-size: 22px;
-    line-height: 32px;
-    font-weight: 300;
-    color: #ffffff;
-}
-
-#loc-para{
-    padding-top:43px;
-    font-family:'outfit',sans-serif;
-    font-size: 22px;
-    line-height: 32px;
-    font-weight: 300;
-    color: #ffffff;
-}
-
-.footer-container{
-    height:244px;
-    width: 100vw;
-    background-color: #d5966c;
-    color: #151515;
-    
-
-}
-
-.gallery-text{
-    width: 80vw;
-    margin: auto;
-    position: relative;
-    top: 81px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#gallery{
-    font-family: 'big shoulders display',sans-serif;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 36px;
-}
-
-#gallery-para{
-    width: 430px;
-    font-family:'outfit',sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 300;
-    position: relative;
-    left:-100px;
-}
-
-.icon{
-    width:100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    filter: invert(1);
-}
-
-#facebook{
-    width: 20px;
-    height: 20px;
-}
-
-#instagram{
-    width: 20px;
-    height: 20px;
-}
-
-#twitter{
-    width: 20px;
-    height: 16.25px;
-}
-
-}
 
 
-@media screen and (max-width:500px){
-
-
-    #home{
-        width:208px;
-        height:72px;
+    .home {
+        width: 208px;
+        height: 72px;
         border: hidden;
         background-color: #151515;
         color: #ffffff;
-        font-family: 'big shoulders display',sans-serif;
+        font-family: 'big shoulders display', sans-serif;
         font-weight: 800;
         font-size: 20px;
         letter-spacing: 3.64px;
 
-        }
+    }
 
-    .loc-box{
+
+
+    .loc-box {
         width: 56px;
         height: 72px;
         background-color: #d5966c;
-        padding:23px;
-        }
+        padding: 23px;
+    }
 
-        a{
-         text-decoration: none;
-        }
+    a:hover .loc-box {
+        background-color: #151515;
+    }
 
-    .button{
+    a:hover .home {
+        background-color: #d5966c;
+    }
+
+    .home:hover {
+        cursor: pointer;
+    }
+
+    .map {
+        background-size: 100vw;
+        background-image: url(./assets/desktop/image-map@2x.png);
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100vw;
+        background-size: 100vw 600px;
+    }
+
+    .loc-container {
+        height: 548px;
+        width: 100vw;
+        background-color: #151515;
+    }
+
+    .loc-text {
+        width: 80vw;
+        position: relative;
+        top: 105px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .loc-pat {
+        width: 540px;
+    }
+
+    #loc-bold {
+        width: 223px;
+        font-family: 'big shoulders display', sans-serif;
+        font-size: 70px;
+        line-height: 70px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+
+    #loc-mid {
+        font-family: 'big shoulders display', sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        color: #d5966c;
+    }
+
+    #loc1 {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    #loc-para {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+
+    .footer-container {
+        height: 244px;
+        width: 100vw;
+        background-color: #d5966c;
+        color: #151515;
+
+
+    }
+
+    .gallery-text {
+        width: 80vw;
+        margin: auto;
+        position: relative;
+        top: 81px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #gallery {
+        font-family: 'big shoulders display', sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    #gallery-para {
+        width: 430px;
+        font-family: 'outfit', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+        position: relative;
+        left: -100px;
+    }
+
+    .icon {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        filter: invert(1);
+    }
+
+    #facebook {
+        width: 20px;
+        height: 20px;
+    }
+
+    #instagram {
+        width: 20px;
+        height: 20px;
+    }
+
+    #twitter {
+        width: 20px;
+        height: 16.25px;
+    }
+
+}
+
+/* mobile view */
+@media screen and (max-width:500px) {
+
+    a {
+        text-decoration: none;
+        width: 264px;
+        height: 72px;
         display: flex;
     }
 
-    .map{
+
+
+    .home {
+        width: 208px;
+        height: 72px;
+        border: hidden;
+        background-color: #151515;
+        color: #ffffff;
+        font-family: 'big shoulders display', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 3.64px;
+
+    }
+
+
+
+    .loc-box {
+        width: 56px;
+        height: 72px;
+        background-color: #d5966c;
+        padding: 23px;
+    }
+
+    .map {
         background-image: url(./assets/mobile/image-map.png);
         height: 550px;
     }
 
-    .loc-container{
+    .loc-container {
         height: 530px;
         background-color: #151515;
     }
 
-    .loc-text{
+    .loc-text {
         width: 343px;
         position: relative;
         top: 43px;
         margin: auto;
     }
 
-    #loc-bold{
-        font-family: 'big shoulders display',sans-serif;
+    #loc-bold {
+        font-family: 'big shoulders display', sans-serif;
         font-size: 50px;
         font-weight: 900;
         color: #ffffff;
     }
 
-    #loc-mid{
-        font-family: 'big shoulders display',sans-serif;
+    #loc-mid {
+        font-family: 'big shoulders display', sans-serif;
         font-size: 32px;
         font-weight: 900;
         color: #d5966c;
-        padding-top: 35px;;
+        padding-top: 35px;
+        ;
     }
 
-    #loc1{
-        padding-top:43px;
-        font-family:'outfit',sans-serif;
+    #loc1 {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
         font-size: 18px;
         line-height: 28px;
         font-weight: 300;
         color: #ffffff;
     }
 
-    #loc-para{
-        padding-top:43px;
-        font-family:'outfit',sans-serif;
+    #loc-para {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
         font-size: 18px;
         line-height: 28px;
         font-weight: 300;
         color: #ffffff;
     }
 
-    .footer-container{
-        height:375px;
+    .footer-container {
+        height: 375px;
         background-color: #d5966c;
         color: #151515;
-        
+
 
     }
-    
-    .gallery-text{
+
+    .gallery-text {
         width: 311px;
         margin: auto;
         position: relative;
         top: 50px;
     }
 
-    #gallery{
-        font-family: 'big shoulders display',sans-serif;
+    #gallery {
+        font-family: 'big shoulders display', sans-serif;
         font-size: 36px;
         font-weight: 900;
         line-height: 36px;
     }
 
-    #gallery-para{
-        padding-top:43px;
-        font-family:'outfit',sans-serif;
+    #gallery-para {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
         font-size: 16px;
         line-height: 26px;
         font-weight: 300;
     }
 
-    .icon{
-        padding-top:43px;
-        width:100px;
+    .icon {
+        padding-top: 43px;
+        width: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -440,49 +486,54 @@
 
 }
 
+/* Tablet view */
 @media screen and (min-width:376px) and (max-width:800px) {
 
-    #home{
-        width:208px;
-        height:72px;
+    a {
+        text-decoration: none;
+        width: 264px;
+        height: 72px;
+        display: flex;
+    }
+
+
+
+    .home {
+        width: 208px;
+        height: 72px;
         border: hidden;
         background-color: #151515;
         color: #ffffff;
-        font-family: 'big shoulders display',sans-serif;
+        font-family: 'big shoulders display', sans-serif;
         font-weight: 800;
         font-size: 20px;
         letter-spacing: 3.64px;
 
-        }
+    }
 
-    .loc-box{
+
+
+    .loc-box {
         width: 56px;
         height: 72px;
         background-color: #d5966c;
-        padding:23px;
-        }
-
-        a{
-         text-decoration: none;
-        }
-
-    .button{
-        display: flex;
+        padding: 23px;
     }
 
-    .map{
+
+    .map {
         background-image: url(./assets/tablet/image-map.png);
         height: 600px;
         width: 768px;
     }
 
-    .loc-container{
+    .loc-container {
         height: 436px;
         width: 768px;
         background-color: #151515;
     }
 
-    .loc-text{
+    .loc-text {
         width: 689px;
         position: relative;
         top: 43px;
@@ -492,54 +543,54 @@
         justify-content: space-between;
     }
 
-    .loc-pat{
+    .loc-pat {
         width: 398px;
     }
 
-    #loc-bold{
+    #loc-bold {
         width: 223px;
-        font-family: 'big shoulders display',sans-serif;
+        font-family: 'big shoulders display', sans-serif;
         font-size: 55px;
         line-height: 50px;
         font-weight: 900;
         color: #ffffff;
     }
 
-    #loc-mid{
-        font-family: 'big shoulders display',sans-serif;
+    #loc-mid {
+        font-family: 'big shoulders display', sans-serif;
         font-size: 32px;
         font-weight: 900;
         color: #d5966c;
     }
 
-    #loc1{
-        padding-top:43px;
-        font-family:'outfit',sans-serif;
+    #loc1 {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
         font-size: 18px;
         line-height: 28px;
         font-weight: 300;
         color: #ffffff;
     }
 
-    #loc-para{
-        padding-top:43px;
-        font-family:'outfit',sans-serif;
+    #loc-para {
+        padding-top: 43px;
+        font-family: 'outfit', sans-serif;
         font-size: 18px;
         line-height: 28px;
         font-weight: 300;
         color: #ffffff;
     }
 
-    .footer-container{
-        height:216px;
+    .footer-container {
+        height: 216px;
         width: 768px;
         background-color: #d5966c;
         color: #151515;
-        
+
 
     }
-    
-    .gallery-text{
+
+    .gallery-text {
         width: 689px;
         margin: auto;
         position: relative;
@@ -549,44 +600,43 @@
         justify-content: space-between;
     }
 
-    #gallery{
-        font-family: 'big shoulders display',sans-serif;
+    #gallery {
+        font-family: 'big shoulders display', sans-serif;
         font-size: 36px;
         font-weight: 900;
         line-height: 36px;
     }
 
-    #gallery-para{
+    #gallery-para {
         width: 281px;
-        font-family:'outfit',sans-serif;
+        font-family: 'outfit', sans-serif;
         font-size: 16px;
         line-height: 26px;
         font-weight: 300;
         position: relative;
-        left:-20px;
+        left: -20px;
     }
 
-    .icon{
-        width:100px;
+    .icon {
+        width: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         filter: invert(1);
     }
 
-    #facebook{
+    #facebook {
         width: 20px;
         height: 20px;
     }
 
-    #instagram{
+    #instagram {
         width: 20px;
         height: 20px;
     }
 
-    #twitter{
+    #twitter {
         width: 20px;
         height: 16.25px;
     }
 }
-
