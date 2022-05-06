@@ -16,6 +16,15 @@ body::-webkit-scrollbar {
     }
 
 
+    .gale{
+        width:600px;
+        height:auto;
+        position:absolute;
+        left:91px;
+        top:-150px;
+        z-index: 1;
+    }
+
     .black-shape{
         background-color: #151515;
         width: 450px;
@@ -41,6 +50,7 @@ body::-webkit-scrollbar {
         left:166px;
         top:190px;
         color:#ffffff;
+        display: none;
     }
 
     span{
@@ -271,6 +281,15 @@ body::-webkit-scrollbar {
     }
 
 
+    .gale{
+        width:600px;
+        height:auto;
+        position:absolute;
+        left:91px;
+        top:-150px;
+        z-index: 1;
+    }
+
     .black-shape{
         background-color: #151515;
         width: 450px;
@@ -296,11 +315,12 @@ body::-webkit-scrollbar {
         left:169px;
         top:190px;
         color:#ffffff;
+        display:none;
     }
 
-span{
-    color: #151515;
-}
+    span{
+        color: #151515;
+    }
 
     #para-1{
         width: 350px;
@@ -523,6 +543,16 @@ span{
         background-image: url(./assets/mobile/image-hero.jpg);
     }
 
+    .gale{
+        width:600px;
+        height:auto;
+        position:absolute;
+        left:91px;
+        top:-150px;
+        z-index: 1;
+        display: none;
+    }
+
     .head{
         width:343px;
     }
@@ -692,6 +722,16 @@ span{
         width: 437px;
         height: 700px;
         background-image: url(./assets/tablet/image-hero.jpg);
+    }
+
+    .gale{
+        width:600px;
+        height:auto;
+        position:absolute;
+        left:91px;
+        top:-150px;
+        z-index: 1;
+        display: none;
     }
 
     .header-container{
