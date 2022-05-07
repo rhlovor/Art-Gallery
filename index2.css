@@ -517,7 +517,6 @@ body::-webkit-scrollbar {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        filter: invert(1);
     }
 
 
@@ -662,7 +661,6 @@ body::-webkit-scrollbar {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        filter: invert(1);
     }
 
     #facebook {
