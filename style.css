@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
 
 
 /* Desktop view */
-@media screen and (min-width:1440px){
+@media screen and (min-width:1025px){
 
     .header-container{
         display: flex;
@@ -156,7 +156,7 @@ body::-webkit-scrollbar {
     
     .ins-move{
         display: flex;
-        width: 1111px;
+        width: 80vw;
         justify-content: space-between;
         position: relative;
         left: 256px;
@@ -272,6 +272,8 @@ body::-webkit-scrollbar {
     }
 
 }
+
+/* Mobile view */
 
 @media screen and (max-width:500px) {
     .image{
@@ -453,6 +455,8 @@ body::-webkit-scrollbar {
 
 }
 
+
+/* Tablet view */
 @media screen and (min-width:426px) and (max-width:1024px) {
 
     .image{

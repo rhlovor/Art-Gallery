@@ -9,205 +9,10 @@ body::-webkit-scrollbar {
 }
 
 
-/* Desktop view */
-@media screen and (min-width:1024px) and (max-width:1440px) {
 
-
-    a {
-        text-decoration: none;
-        width: 264px;
-        height: 72px;
-        position: relative;
-        left: 158px;
-        display: flex;
-    }
-
-
-
-    .home {
-        width: 208px;
-        height: 72px;
-        border: hidden;
-        background-color: #151515;
-        color: #ffffff;
-        font-family: 'big shoulders display', sans-serif;
-        font-weight: 800;
-        font-size: 20px;
-        letter-spacing: 3.64px;
-
-    }
-
-
-
-    .loc-box {
-        width: 56px;
-        height: 72px;
-        background-color: #d5966c;
-        padding: 23px;
-    }
-
-    a:hover .loc-box {
-        background-color: #151515;
-    }
-
-    a:hover .home {
-        background-color: #d5966c;
-    }
-
-    .home:hover {
-        cursor: pointer;
-    }
-
-
-
-
-
-
-    .map {
-        background-image: url(./assets/desktop/image-map@2x.png);
-        background-repeat: no-repeat;
-        height: 500px;
-        width: 100vw;
-        background-size: 100vw 550px;
-    }
-
-    .loc-container {
-        height: 500px;
-        width: 100vw;
-        background-color: #151515;
-    }
-
-    .loc-text {
-        width: 80vw;
-        position: relative;
-        top: 105px;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .loc-pat {
-        width: 398px;
-    }
-
-    #loc-bold {
-        width: 223px;
-        font-family: 'big shoulders display', sans-serif;
-        font-size: 55px;
-        line-height: 50px;
-        font-weight: 900;
-        color: #ffffff;
-    }
-
-    #loc-mid {
-        font-family: 'big shoulders display', sans-serif;
-        font-size: 36px;
-        font-weight: 900;
-        color: #d5966c;
-    }
-
-    #loc1 {
-        padding-top: 43px;
-        font-family: 'outfit', sans-serif;
-        font-size: 18px;
-        line-height: 22px;
-        font-weight: 300;
-        color: #ffffff;
-    }
-
-    #loc-para {
-        padding-top: 43px;
-        font-family: 'outfit', sans-serif;
-        font-size: 18px;
-        line-height: 22px;
-        font-weight: 300;
-        color: #ffffff;
-    }
-
-    .footer-container {
-        height: 244px;
-        width: 100vw;
-        background-color: #d5966c;
-        color: #151515;
-
-
-    }
-
-    .gallery-text {
-        width: 80vw;
-        margin: auto;
-        position: relative;
-        top: 81px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #gallery {
-        font-family: 'big shoulders display', sans-serif;
-        font-size: 36px;
-        font-weight: 900;
-        line-height: 36px;
-    }
-
-    #gallery-para {
-        width: 369px;
-        font-family: 'outfit', sans-serif;
-        font-size: 16px;
-        line-height: 26px;
-        font-weight: 300;
-        position: relative;
-        left: -40px;
-    }
-
-    .icon {
-        width: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-
-    path{
-        fill: #151515;
-    }
-
-    #facebook {
-        width: 20px;
-        height: 20px;
-    }
-
-    #facebook:hover path{
-        cursor:pointer;
-        fill: #ffffff;
-    }
-
-    #instagram {
-        width: 20px;
-        height: 20px;
-    }
-
-    #instagram:hover path{
-        cursor:pointer;
-        fill: #ffffff;
-    }
-
-    #twitter {
-        width: 20px;
-        height: 16.25px;
-        
-    }
-
-    #twitter:hover path{
-        cursor:pointer;
-        fill: #ffffff;
-    }
-
-}
 
 /* Desktop view */
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1025px) {
 
     a {
         text-decoration: none;
@@ -524,7 +329,7 @@ body::-webkit-scrollbar {
 }
 
 /* Tablet view */
-@media screen and (min-width:376px) and (max-width:800px) {
+@media screen and (min-width:426px) and (max-width:1024px) {
 
     a {
         text-decoration: none;
@@ -560,20 +365,20 @@ body::-webkit-scrollbar {
 
     .map {
         background-image: url(./assets/tablet/image-map.png);
-        background-size: 768px 600px;
+        background-size: 100vw 600px;
         background-repeat: no-repeat;
         height: 600px;
-        width: 768px;
+        width: 100vw;
     }
 
     .loc-container {
         height: 436px;
-        width: 768px;
+        width: 100vw;
         background-color: #151515;
     }
 
     .loc-text {
-        width: 689px;
+        width: 80vw;
         position: relative;
         top: 43px;
         margin: auto;
@@ -622,7 +427,7 @@ body::-webkit-scrollbar {
 
     .footer-container {
         height: 216px;
-        width: 768px;
+        width: 100vw;
         background-color: #d5966c;
         color: #151515;
 
@@ -630,7 +435,7 @@ body::-webkit-scrollbar {
     }
 
     .gallery-text {
-        width: 689px;
+        width: 80vw;
         margin: auto;
         position: relative;
         top: 50px;
