@@ -9,9 +9,6 @@
 
 /* Desktop view */
 
-body{
-    border:3px solid red;
-}
 
     /* Header */
     .header-container{
@@ -137,6 +134,28 @@ body{
         justify-content: space-between;
     }
 
+   
+    .your-day{
+        width: 350px;
+    }
+    #your-day{
+        font-family: 'big shoulders display',sans-serif;
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 50px;
+        color: #151515;
+    }
+
+    #your-para{
+        font-family:'outfit',sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #444444;
+        position: relative;
+        top: 50px;
+    }
+
     #grid1{
         width: 635px;
         height:400px;
@@ -168,7 +187,7 @@ body{
     }
 
 
-    #ins-move{
+    .ins-move{
         width: 445px;
         height: 377px;
     }
@@ -186,31 +205,7 @@ body{
         justify-content: space-between;
     }
 
-   
-    .your-day{
-        width: 350px;
-    }
-    #your-day{
-        font-family: 'big shoulders display',sans-serif;
-        font-size: 60px;
-        font-weight: 900;
-        line-height: 50px;
-        color: #151515;
-    }
 
-    #your-para{
-        font-family:'outfit',sans-serif;
-        font-size: 22px;
-        line-height: 32px;
-        font-weight: 300;
-        color: #444444;
-        position: relative;
-        top: 50px;
-    }
-
-
-   
-  
 
     .inspired{
         width: 445px;
@@ -250,10 +245,8 @@ body{
     /* Footer */
 
     .footer-container{
-        position:relative;
-        top:450px;
         height: 244px;
-        width: 1440px;
+        width: 100vw;
         background-color: #151515;
         color: #ffffff;
         
@@ -328,6 +321,12 @@ body{
         fill: #d5966c;
     }
 
+    .sec-foot{
+        height: 1574px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
 
 
