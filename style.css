@@ -4,76 +4,65 @@
     box-sizing: border-box;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
 
 
 
 /* Desktop view */
 
+body{
+    border:3px solid red;
+}
 
     /* Header */
     .header-container{
         display: flex;
-    }
-
-
-    .gale{
-        width:600px;
-        height:auto;
-        position:absolute;
-        left:91px;
-        top:-150px;
-        z-index: 1;
+        flex-direction: row;
+        width:1275px;
     }
 
     .black-shape{
-        background-color: #151515;
         width: 450px;
         height: 800px;
+        background-color: #151515;
+        
     }
 
-    .image{
-        width: 540px;
-        height: 800px;
-        background-image: url(./assets/desktop/image-hero.jpg);
-        background-repeat: no-repeat;
-        background-size: 540px 800px;
+    .hero #hero{
+        width:540px;
+        height:800px;
+    }
+
+    .image-shape{
+        display: flex;
+    }
+
+    .gale #gale{
+        width:444px;
+        height:167px;
+        border:0px solid green;
     }
 
     
-    #heading{
-        font-family: 'big shoulders display',sans-serif;
-        font-size: 96px;
-        font-weight: 900;
-        line-height: 86px;
-        width: 514px;
-        position: absolute;
-        left:169px;
-        top:190px;
-        color:#ffffff;
-        display:none;
-    }
-
-    span{
-        color: #151515;
-    }
 
     #para-1{
         width: 350px;
-        height:260px;
         font-family:'outfit',sans-serif;
         font-size: 22px;
         line-height: 32px;
         font-weight: 300;
         color: #444444;
-        position: relative;
-        left:-64px;
-        top:195px;
     }
 
-    .location{
+    .loc-parra{
+        height:296px;
+        width:350px;
+        border:0px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .location #location{
         width:204px;
         height:72px;
         border: hidden;
@@ -89,9 +78,6 @@ body::-webkit-scrollbar {
     
     a{
         text-decoration:none;
-        position: relative;
-        top:165px;
-        left:-64px;
         display: flex;
         flex-direction: row;
     }
@@ -104,7 +90,12 @@ body::-webkit-scrollbar {
         background-color: #d5966c;
     }
 
-    .location:hover {
+    a:hover #location {
+        background-color: #d5966c;
+    }
+
+
+    .location #location:hover {
         cursor: pointer;
     }
 
@@ -115,6 +106,18 @@ body::-webkit-scrollbar {
         padding:23px;
     }
 
+    .head{
+        border:0px solid purple;
+        display: flex;
+        justify-content: space-between;
+        width:1110px;
+        height:296px;
+        position: absolute;
+        left:170px;
+        top: 190px;
+        z-index: 1;
+    }
+
     /* Section */
 
     section{
@@ -122,8 +125,10 @@ body::-webkit-scrollbar {
         height:1150px;
         position: relative;
         top: 238px;
-        border:1px solid black;
         margin: 0 auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .your{
@@ -162,11 +167,23 @@ body::-webkit-scrollbar {
         height: 313px;
     }
 
+
+    #ins-move{
+        width: 445px;
+        height: 377px;
+    }
+
     .your2{
-        width: 1110px;
+        height: 720px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .your-main{
+        width:1110px;
         display: flex;
         justify-content: space-between;
-
     }
 
    
@@ -191,6 +208,8 @@ body::-webkit-scrollbar {
         top: 50px;
     }
 
+
+   
   
 
     .inspired{
@@ -226,15 +245,15 @@ body::-webkit-scrollbar {
         color: #ffffff;
     }
 
-    .space-3{
-        height: 182px;
-    }
+   
 
     /* Footer */
 
     .footer-container{
+        position:relative;
+        top:450px;
         height: 244px;
-        width: 100vw;
+        width: 1440px;
         background-color: #151515;
         color: #ffffff;
         
@@ -242,7 +261,7 @@ body::-webkit-scrollbar {
     }
     
     .gallery-text {
-        width: 80vw;
+        width: 80%;
         margin: auto;
         position: relative;
         top: 81px;
@@ -309,7 +328,9 @@ body::-webkit-scrollbar {
         fill: #d5966c;
     }
 
-}
+
+
+
 
 /* Mobile view */
 
