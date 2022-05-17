@@ -11,8 +11,9 @@ body::-webkit-scrollbar {
 
 
 /* Desktop view */
-@media screen and (min-width:1025px){
 
+
+    /* Header */
     .header-container{
         display: flex;
     }
@@ -114,14 +115,63 @@ body::-webkit-scrollbar {
         padding:23px;
     }
 
-    .space{
-        height:238px;
+    /* Section */
+
+    section{
+        width:1110px;
+        height:1150px;
+        position: relative;
+        top: 238px;
+        border:1px solid black;
+        margin: 0 auto;
     }
 
+    .your{
+        width:1110px;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    #grid1{
+        width: 635px;
+        height:400px;
+    }
+
+    .in-images1{
+        width: 635px;
+        height:400px;
+    }
+
+    #grid2{
+        width: 635px;
+        height: 720px;
+    }
+
+    .in-images2{
+        width: 635px;
+        height: 720px;
+    }
+
+    #grid3{
+        width: 445px;
+        height: 313px;
+    }
+
+    .in-images3{
+        width: 445px;
+        height: 313px;
+    }
+
+    .your2{
+        width: 1110px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+   
     .your-day{
         width: 350px;
-        position: relative;
-        left: 156px;
     }
     #your-day{
         font-family: 'big shoulders display',sans-serif;
@@ -141,9 +191,7 @@ body::-webkit-scrollbar {
         top: 50px;
     }
 
-    .space-2{
-        height: 436px;
-    }
+  
 
     .inspired{
         width: 445px;
@@ -154,19 +202,7 @@ body::-webkit-scrollbar {
         
     }
     
-    .ins-move{
-        display: flex;
-        width: 80vw;
-        justify-content: space-between;
-        position: relative;
-        left: 256px;
-    }
 
-    .box{
-        width: 635px;
-        height: 377px;
-
-    }
 
     .ins-text{
         width:350px;
@@ -193,6 +229,8 @@ body::-webkit-scrollbar {
     .space-3{
         height: 182px;
     }
+
+    /* Footer */
 
     .footer-container{
         height: 244px;
