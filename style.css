@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1281px) {
 
 body::-webkit-scrollbar {
     display: none;
@@ -168,6 +168,35 @@ body::-webkit-scrollbar {
         position: relative;
         top: 50px;
     }
+
+     /*Mobile images*/
+     #grid1-2{
+        display: none;
+    }
+
+    .in-images1-2{
+        display: none;
+    }
+
+    #grid2-2{
+        display: none;
+    }
+
+    .in-images2-2{
+        display: none;
+    }
+
+    #grid3-2{
+        display: none;
+        
+    }
+
+    .in-images3-2{
+        display: none;
+    }
+
+    /*Mobile images*/
+    
 
     #grid1{
         width: 635px;
@@ -349,53 +378,43 @@ body::-webkit-scrollbar {
     }
 /* Tablet images*/
     #grid1-1{
-        width: 398px;
-        height:400px;
         display: none;
     }
 
     .in-images1-1{
-        width: 398px;
-        height:400px;
         display: none;
     }
 
     #grid2-1{
-        width: 398px;
-        height: 720px;
         display: none;
     }
 
     .in-images2-1{
-        width: 398px;
-        height: 720px;
         display: none;
     }
 
     #grid3-1{
-        width: 280px;
-        height: 313px;
         display: none;
         
     }
 
     .in-images3-1{
-        width: 280px;
-        height: 313px;
         display: none;
     }
+/* Tablet images*/
 
 
 }
 
 /*Desktop view 2*/
-@media screen and (min-width:800px) and (max-width:1025px){
+@media screen and (min-width:800px) and (max-width:1281px){
 
-    /* Header */
+/* Header */
     .header-container{
         display: flex;
         flex-direction: row;
         width:980px;
+        border:0px solid red;
     }
 
     .black-shape{
@@ -580,6 +599,34 @@ body::-webkit-scrollbar {
         height: 313px;
     }
 
+       /*Mobile images*/
+       #grid1-2{
+        display: none;
+    }
+
+    .in-images1-2{
+        display: none;
+    }
+
+    #grid2-2{
+        display: none;
+    }
+
+    .in-images2-2{
+        display: none;
+    }
+
+    #grid3-2{
+        display: none;
+        
+    }
+
+    .in-images3-2{
+        display: none;
+    }
+
+    /*Mobile images*/
+    
     /* desktop images*/
     #grid1{
         width: 635px;
@@ -686,7 +733,7 @@ body::-webkit-scrollbar {
 
     .footer-container{
         height: 216px;
-        width: 100vw;
+        width: 100%;
         background-color: #151515;
         color: #ffffff;
         
@@ -971,6 +1018,40 @@ body::-webkit-scrollbar {
         height: 313px;
     }
 
+    /*Mobile images*/
+    #grid1-2{
+        width:343px;
+        height:400px;
+        display: none;
+    }
+
+    .in-images1-2{
+        width:343px;
+        height:400px;
+        display: none;
+    }
+
+    #grid2-2{
+        width:343px;
+        height:400px;
+        display: none;
+    }
+
+    .in-images2-2{
+        display: none;
+    }
+
+    #grid3-2{
+        display: none;
+        
+    }
+
+    .in-images3-2{
+        display: none;
+    }
+
+    /*Mobile images*/
+
     /* desktop images*/
     #grid1{
         width: 635px;
@@ -1165,7 +1246,7 @@ body::-webkit-scrollbar {
 }
 
 /*Mobile view*/
-@media screen and (min-width:320px) and (max-width:380px){
+@media screen and (min-width:320px) and (max-width:450px){
    
     /* Header */
     .header-container{
@@ -1173,7 +1254,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: space-between;
         height:630px;
-        border:2px solid black;
+        border:0px solid black;
     }
 
     .black-shape{
@@ -1187,6 +1268,13 @@ body::-webkit-scrollbar {
     .hero-1 #hero-1{
         width:375px;
         height:240px;
+    }
+
+    #hero-1{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     }
 
     .hero #hero{
@@ -1204,8 +1292,8 @@ body::-webkit-scrollbar {
     #title{
         font-family: 'big shoulders display',sans-serif;
         font-weight: 900;
-        font-size: 70px;
-        line-height: 65px;
+        font-size: 60px;
+        line-height: 55px;
     }
 
     
@@ -1222,7 +1310,7 @@ body::-webkit-scrollbar {
     .loc-parra{
         height:358px;
         width:343px;
-        border:1px solid red;
+        border:0px solid red;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1276,7 +1364,7 @@ body::-webkit-scrollbar {
     }
 
     .head{
-        border:1px solid purple;
+        border:0px solid purple;
         display: flex;
         justify-content: space-between;
         margin:0 auto;
@@ -1288,10 +1376,10 @@ body::-webkit-scrollbar {
     /* Section */
 
     section{
-        width:689px;
-        height:1131px;
+        width:343px;
+        height:1605px;
         position: relative;
-        top: 238px;
+        top: 203px;
         border:0px solid green;
         margin: 0 auto;
         display:flex;
@@ -1300,16 +1388,17 @@ body::-webkit-scrollbar {
     }
 
     .your{
-        width:689px;
+        height:568px;
         border: 0px solid red;
         display:flex;
+        flex-direction: column-reverse;
         justify-content: space-between;
     }
 
    
     .your-day{
-        width: 223px;
-        height:300px;
+        width: 343px;
+        height:223px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1322,6 +1411,11 @@ body::-webkit-scrollbar {
         color: #151515;
     }
 
+    #yourday::after{
+        content: "\a";
+        white-space: pre;
+    }
+
     #your-para{
         font-family:'outfit',sans-serif;
         font-size: 18px;
@@ -1330,35 +1424,76 @@ body::-webkit-scrollbar {
         color: #444444;
     }
 
+
+    #grid1-2{
+        width: 343px;
+        height:320px;
+    }
+
+    .in-images1-2{
+        width: 343px;
+        height:320px;
+    }
+
+    #grid2-2{
+        width: 343px;
+        height: 480px;
+    }
+
+    .in-images2-2{
+        width: 343px;
+        height: 480px;
+    }
+
+    #grid3-2{
+        width: 343px;
+        height: 200px;
+        
+    }
+
+    .in-images3-2{
+        width: 343px;
+        height: 200px;
+    }
+
+
+
+/*Tablet images*/
     #grid1-1{
         width: 398px;
         height:400px;
+        display: none;
     }
 
     .in-images1-1{
         width: 398px;
         height:400px;
+        display:none;
     }
 
     #grid2-1{
         width: 398px;
         height: 720px;
+        display: none;
     }
 
     .in-images2-1{
         width: 398px;
         height: 720px;
+        display: none;
     }
 
     #grid3-1{
         width: 280px;
         height: 313px;
+        display: none;
         
     }
 
     .in-images3-1{
         width: 280px;
         height: 313px;
+        display: none;
     }
 
     /* desktop images*/
@@ -1403,11 +1538,13 @@ body::-webkit-scrollbar {
 
 
     .ins-move{
-        width: 280px;
-        height: 396px;
+        width: 343px;
+        height: 293px;
     }
 
    .your2{
+       width: 343px;
+       height:509px;
        display: flex;
        flex-direction: column;
        justify-content: space-between;
@@ -1415,16 +1552,19 @@ body::-webkit-scrollbar {
    }
 
     .your-main{
-        width:689px;
+        width:343px;
+        height:1005px;
+        border:0px solid rgb(39, 149, 9);
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
 
 
 
     .inspired{
-        width: 280px;
-        height: 396px;
+        width: 343px;
+        height: 293px;
         background-color: #151515;
         display: flex;
         align-items: center;
@@ -1434,8 +1574,8 @@ body::-webkit-scrollbar {
 
 
     .ins-text{
-        width:223px;
-        height:226px;
+        width:295px;
+        height:198px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -1466,7 +1606,7 @@ body::-webkit-scrollbar {
     /* Footer */
 
     .footer-container{
-        height: 216px;
+        height: 336px;
         width: 100vw;
         background-color: #151515;
         color: #ffffff;
@@ -1475,12 +1615,13 @@ body::-webkit-scrollbar {
     }
     
     .gallery-text {
-        width: 90%;
-        margin: auto;
+        width: 311px;
+        height:240px;
+        margin: 0 auto;
         position: relative;
-        top: 71px;
+        top: 51px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -1493,13 +1634,11 @@ body::-webkit-scrollbar {
     }
 
     #gallery-para {
-        width: 281px;
+        width: 311px;
         font-family: 'outfit', sans-serif;
         font-size: 16px;
         line-height: 26px;
         font-weight: 300;
-        position: relative;
-        left: -40px;
     }
 
    
@@ -1544,7 +1683,7 @@ body::-webkit-scrollbar {
     }
 
     .sec-foot{
-        height: 1467px;
+        height: 2061px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
