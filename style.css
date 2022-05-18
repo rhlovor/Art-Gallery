@@ -819,7 +819,7 @@ body::-webkit-scrollbar {
 }
 
    /* Tablet View */
-   @media screen and (min-width:668px) and (max-width:800px){
+   @media screen and (min-width:600px) and (max-width:800px){
    
     /* Header */
     .header-container{
