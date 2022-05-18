@@ -292,6 +292,7 @@ body::-webkit-scrollbar {
     .footer-container{
         height: 244px;
         width: 100%;
+        margin: 0 auto;
         background-color: #151515;
         color: #ffffff;
         
@@ -734,6 +735,7 @@ body::-webkit-scrollbar {
     .footer-container{
         height: 216px;
         width: 100%;
+        margin: 0 auto;
         background-color: #151515;
         color: #ffffff;
         
@@ -819,7 +821,7 @@ body::-webkit-scrollbar {
 }
 
    /* Tablet View */
-   @media screen and (min-width:600px) and (max-width:800px){
+   @media screen and (min-width:500px) and (max-width:800px){
    
     /* Header */
     .header-container{
@@ -1159,6 +1161,7 @@ body::-webkit-scrollbar {
     .footer-container{
         height: 216px;
         width: 100vw;
+        margin: 0 auto;
         background-color: #151515;
         color: #ffffff;
         
@@ -1608,6 +1611,7 @@ body::-webkit-scrollbar {
     .footer-container{
         height: 336px;
         width: 100vw;
+        margin: 0 auto;
         background-color: #151515;
         color: #ffffff;
         
@@ -1695,5 +1699,15 @@ body::-webkit-scrollbar {
 
 
 
-
+@media screen and (min-width:100px) and (max-width:320px){
+    body{
+        display: none;
+    }
+}
+ 
+@media screen and (min-width:425px) and (max-width:500px){
+    body{
+        display: none;
+    }
+}
  
